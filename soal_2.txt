@@ -1,0 +1,2 @@
+select product_name, category_name from produk inner join sub_kategori on produk.sub_category_id = sub_kategori.id inner join kategori on sub_kategori.category_id = kategori.id;
+
